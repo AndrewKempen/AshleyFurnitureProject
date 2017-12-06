@@ -5,5 +5,3 @@ function sec1 (){
 // todo; get function to change time ?
 // todo v2
 // todo; get times and names for sections
-
-.
