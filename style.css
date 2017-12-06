@@ -21,9 +21,39 @@ h2 {
     font-size: 32px;
     color:#C423D9
 }
+.dropdown {
+    text-align: left;
 
+
+}
 p {
     font-family: "Segoe UI", Verdana, sans-serif;
     font-size: 18px;
     padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:#000000;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-family: verdana;
+}
+
+li a:hover {
+    background-color: #111111;
 }
