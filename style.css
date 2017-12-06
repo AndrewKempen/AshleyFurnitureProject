@@ -1,16 +1,13 @@
-body {
-    background-color:e6e6e6;
-    }
-
-head {
-}
+body {background-color:e6e6e6;}
+head {}
 h1 {
     background-color:lightgrey;
     font-family: "GOST Common", Verdana, sans-serif;
     padding: 20px;
     margin: -10px;
     font-size: 48px;
-    color:#C423D9
+    color:#C423D9;
+    text-align: center;
 }
 
 h2 {
@@ -21,17 +18,11 @@ h2 {
     font-size: 32px;
     color:#C423D9
 }
-.dropdown {
-    text-align: left;
-
-
-}
 p {
     font-family: "Segoe UI", Verdana, sans-serif;
     font-size: 18px;
     padding:10px;
 }
-
 ul {
     list-style-type: none;
     margin: -10px;
@@ -39,12 +30,7 @@ ul {
     overflow: hidden;
     background-color:#000000;
 }
-
-li {
-    float: left;
-}
-
-
+li {float: left;}
 li a {
     display: block;
     color: white;
@@ -53,7 +39,16 @@ li a {
     text-decoration: none;
     font-family: verdana;
 }
+li a:hover {background-color: #111111;}
 
-li a:hover {
-    background-color: #111111;
+div, textarea, table, td, th, code, pre, samp {
+    word-wrap: break-word;
 }
+.left {
+    float: left;
+    text-align: center;
+}
+.w50 {
+    width: 50%;
+}
+video { width:100%;}
