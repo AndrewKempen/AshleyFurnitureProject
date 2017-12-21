@@ -9,7 +9,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install git build-essential cmake vim
 
-#Download and compile CORE Vision code
+#Download and compile Ashley Furniture Project Service
 cd /home/pi
 git clone https://github.com/Wishbonea/AshleyFurnitureProject/
 cd AshleyFurnitureProject
