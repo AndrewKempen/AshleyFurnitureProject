@@ -9,6 +9,7 @@ h1 {
   font-family: "GOST Common", Verdana, sans-serif;
   padding: 20px;
   margin: -10px;
+  margin-bottom: 20px;
   font-size: 48px;
   color: #C423D9;
   text-align: center;
@@ -66,14 +67,23 @@ div, textarea, table, td, th, code, pre, samp {
 .w50 {
   width: 50%;
 }
+
 .product {
-  width:auto;
-  height:20%;
-  margin-bottom: 20px;
+  width: auto;
+  height: 20%;
+  margin-bottom: 50%;
 }
+
 img {
   height: 100%;
 }
+
 video {
   width: 100%;
+  margin-bottom: 10%;
+}
+
+@font-face {
+  font-family: gostCommon;
+  src: url(gost-common.ttf);
 }
