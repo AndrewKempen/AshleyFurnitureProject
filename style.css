@@ -1,9 +1,14 @@
 body {
   background-color: e6e6e6;
+  width: auto;
 }
 
-head {}
-
+head {
+  width: auto;
+}
+.content {
+  width: 100%;
+}
 h1 {
   background-color: lightgrey;
   font-family: "GOST Common", Verdana, sans-serif;
@@ -59,13 +64,10 @@ div, textarea, table, td, th, code, pre, samp {
   word-wrap: break-word;
 }
 
-.left {
+.halfdivider {
   float: left;
   text-align: center;
-}
-
-.w50 {
-  width: 50%;
+  width: 50%
 }
 
 .product {
