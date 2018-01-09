@@ -75,6 +75,11 @@ div, textarea, table, td, th, code, pre, samp {
   height: 20%;
   margin-bottom: 50%;
 }
+.instvideo {
+  width: auto;
+  height: 20%;
+  margin-bottom: 50%;
+}
 
 img {
   height: 100%;
@@ -83,9 +88,4 @@ img {
 video {
   width: 100%;
   margin-bottom: 10%;
-}
-
-@font-face {
-  font-family: gostCommon;
-  src: url(gost-common.ttf);
 }
