@@ -84,7 +84,9 @@ div, textarea, table, td, th, code, pre, samp {
   height: 20%;
   margin-bottom: 50%;
 }
-
+.sewingdiv {
+ margin-top: 10px;
+}
 img {
   height: 100%;
 }
