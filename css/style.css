@@ -6,9 +6,11 @@ body {
 head {
   width: auto;
 }
+
 .content {
   width: 100%;
 }
+
 h1 {
   background-color: lightgrey;
   font-family: "Consolas", Verdana, sans-serif;
@@ -76,6 +78,7 @@ div, textarea, table, td, th, code, pre, samp {
   height: 20%;
   margin-bottom: 50%;
 }
+
 .instvideo {
   width: auto;
   height: 20%;
